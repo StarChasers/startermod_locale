@@ -10,7 +10,7 @@
       }
       "pl-DEV": {
          "display_name": "Polski(WIP)",
-         "path": "/startermod_locale/translations/pl-PL.json"
+         "path": "/startermod_locale/translations/pl-DEV.json"
       }
    }
 }
