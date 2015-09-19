@@ -383,388 +383,388 @@
                "items": {
                   "party_manager": {
                      "display_name": "Drużyny",
-                     "description": "Organize your troops into groups"
+                     "description": "Przydzielaj swoich zbrojnych do grup"
                   },
                   "town_defense": {
-                     "display_name": "Town Defense Mode!",
-                     "description": "Rally your hearthlings to defend the town!",
-                     "activated_title": "Town Defense Mode Activated!",
-                     "activated_text": "Your workers have stopped their jobs and are vigilantly watching for intruduers."
+                     "display_name": "Tryb Obrony Miasta!",
+                     "description": "Zwołaj swoich zbrojnych, by bronili miasta!",
+                     "activated_title": "Tryb Obrony Miasta Włączony!",
+                     "activated_text": "Twoi pracownicy zaprzestali pracy i dzielnie wypatrują intruzów."
                   },
                   "loot_item": {
-                     "display_name": "Loot",
-                     "description": "Steal items from another player.",
-                     "tip_title": "Kliknij i przeciągnij, to loot items from the world",
-                     "tip_description": "Kliknij prawym przyciskiem myszy, by exit this mode"
+                     "display_name": "Grabierz",
+                     "description": "Ukradnij przedmioty innemu graczowi.",
+                     "tip_title": "Kliknij i przeciągnij, by zagrabić przedmioty ze świata",
+                     "tip_description": "Kliknij prawym przyciskiem myszy, by wyjść z tego trybu"
                   }
                }
             },
             "bulletin_manager": {
-               "display_name": "Bulletins",
-               "description": "Important notifications about the world and your town"
+               "display_name": "Biuletyny",
+               "description": "Ważne informacje o świecie i Twoim mieście"
             },
             "tasks_manager": {
-               "display_name": "Manage Tasks",
-               "description": "Do task stuff.",
-               "remove_stockpile": "Remove Stockpile",
-               "pause_stockpile": "Pause",
-               "resume_stockpile": "Resume",
+               "display_name": "Zarządzaj zadaniami",
+               "description": "Sprawy zadaniowe.",
+               "remove_stockpile": "Usuń Magazyn",
+               "pause_stockpile": "Wstrzymaj magazynowanie",
+               "resume_stockpile": "Wznów",
                "group": {
-                  "stockpiles": "Stockpiles",
-                  "building": "Building",
-                  "placement": "Placed Items",
-                  "maintenance": "General Maintenance",
-                  "farming": "Farming",
-                  "harvesting": "Harvesting",
-                  "mining": "Mining",
-                  "trapping": "Trapping"
+                  "stockpiles": "Magazyny",
+                  "building": "Budowa",
+                  "placement": "Postawione przedmioty",
+                  "maintenance": "Ogólne zarządzanie",
+                  "farming": "Rolnictwo",
+                  "harvesting": "Zbiory",
+                  "mining": "Kopalnie",
+                  "trapping": "Łowiectwo"
                },
-               "percent_full": "[str(percent)] Percent Full",
-               "active": "active",
-               "paused": "paused"
+               "percent_full": "[str(percent)]% zapełnienia",
+               "active": "działa",
+               "paused": "wstrzymane"
             }
          },
          "bulletin": {
             "bulletin_list_title": "Notifications",
             "shop": {
-               "buy_1": "Buy 1",
-               "buy_10": "Buy 10",
-               "sell_1": "Sell 1",
-               "sell_10": "Sell 10",
-               "buy_tab": "Buy",
-               "sell_tab": "Sell",
-               "not_enough_gold_tooltip": "Not enough gold"
+               "buy_1": "Kup 1",
+               "buy_10": "Kup 10",
+               "sell_1": "Sprzedaj 1",
+               "sell_10": "Sprzedaj 10",
+               "buy_tab": "Kup",
+               "sell_tab": "Sprzedaj",
+               "not_enough_gold_tooltip": "Za mało złota!"
             },
             "quest_bulletin": {
-               "title": "New Message"
+               "title": "Nowa Wiadomość"
             },
             "level_up_bulletin": {
-               "title": "[name(i18n_data.entity)] has Leveled Up!",
-               "show_char_sheet": "Character Sheet"
+               "title": "[name(i18n_data.entity)] awansował na wyższy poziom!",
+               "show_char_sheet": "Karta Postaci"
             },
             "immigration_report": {
-               "title": "Daily Update",
-               "immigration_report_title": "Immigration Report",
-               "population_label": "population",
-               "next_requirements_label": "Next hearthling requirements..."
+               "title": "Informator Dzienny",
+               "immigration_report_title": "Raport Imigracyjny",
+               "population_label": "populacja",
+               "next_requirements_label": "Wymagania do następnego osadnika..."
             },
             "collection_quest": {
-               "pay": "Here you go!",
-               "cancel": "I've changed my mind"
+               "pay": "Masz, proszę!",
+               "cancel": "Zmieniłem zdanie"
             }
          },
          "build_mode": {
             "tooltips": {
-               "building_tools": "Building Tools",
-               "voxel_tools": "Voxel Tools",
-               "voxel_add": "Add Voxel",
-               "voxel_paint": "Paint Voxel",
-               "voxel_remove": "Remove Voxel",
-               "selection": "Selection",
-               "delete": "Delete",
-               "undo": "Undo",
-               "draw_slab_tool": "Slabs",
-               "draw_floor_tool": "Foundations",
-               "grow_floor_tool": "Floors",
-               "grow_roof_tool": "Roofs",
-               "draw_door_tool": "Doors",
-               "draw_window_tool": "Windows",
-               "grow_wall_tool": "Walls",
-               "draw_wall_tool": "Free Standing Walls",
-               "draw_road_tool": "Roads",
-               "place_furniture_tool": "Furniture",
-               "place_decoration_tool": "Decorations"
+               "building_tools": "Narzędzia Budowania",
+               "voxel_tools": "Narzędzia Voxeli",
+               "voxel_add": "Dodaj Voxel",
+               "voxel_paint": "Maluj Voxel",
+               "voxel_remove": "Usuń Voxel",
+               "selection": "Zaznaczenie",
+               "delete": "Usuń",
+               "undo": "Cofnij",
+               "draw_slab_tool": "Płyty",
+               "draw_floor_tool": "Fundamenty",
+               "grow_floor_tool": "Podłogi",
+               "grow_roof_tool": "Dachy",
+               "draw_door_tool": "Drzwi",
+               "draw_window_tool": "Okna",
+               "grow_wall_tool": "Ściany",
+               "draw_wall_tool": "Ściany Wolnostojace",
+               "draw_road_tool": "Drogi",
+               "place_furniture_tool": "Meble",
+               "place_decoration_tool": "Dekoracje"
             },
             "overhead_tips": {
-               "wall_segment_tip_title": "Click to place freestanding wall segments",
-               "wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
-               "build_title_building_designer": "Building Designer",
-               "build_floor_tip_title": "Kliknij i przeciągnij, to place floor tiles",
-               "build_floor_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
-               "build_slab_tip_title": "Kliknij i przeciągnij, to build a slab",
-               "build_slab_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
-               "erase_structure_tip_title": "Click to erase items. Kliknij i przeciągnij, to erase floor",
-               "erase_structure_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
+               "wall_segment_tip_title": "Kliknij by stawiać wolnostojące ściany",
+               "wall_segment_tip_description": "Przytrzymaj SHIFT by stawiać połączone ściany",
+               "build_title_building_designer": "Projektant Budynków",
+               "build_floor_tip_title": "Kliknij i przeciągnij, by kłaść podłogę.",
+               "build_floor_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
+               "build_slab_tip_title": "Kliknij i przeciągnij, by postawić płytę",
+               "build_slab_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
+               "erase_structure_tip_title": "Kliknij by usuwać obiekty. Kliknij i przeciągnij, by usunąć podłogę",
+               "erase_structure_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
                "roof_tip_title": "Click a walled floorplan to place the roof",
-               "roof_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
+               "roof_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
                "raise_walls_tip_title": "Click a floorplan to add walls",
-               "raise_walls_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
+               "raise_walls_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
                "doodad_tip_title": "Click a wall to place the door or window",
-               "doodad_tip_description": "Kliknij prawym przyciskiem myszy, by exit",
-               "draw_template_title": "Click to build template",
-               "draw_template_description": "Rotate with , and . keys",
-               "build_road_tip_title": "Kliknij i przeciągnij, to build road",
-               "build_road_tip_description": "Kliknij prawym przyciskiem myszy, by exit"
+               "doodad_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść",
+               "draw_template_title": "Kliknij by wybudować z szablonu.",
+               "draw_template_description": "Obracaj przy pomocy , i .",
+               "build_road_tip_title": "Kliknij i przeciągnij, by postawić drogę",
+               "build_road_tip_description": "Kliknij prawym przyciskiem myszy, by wyjść"
             },
             "building_cost": {
-               "required_item": "Required Item",
-               "count": "Num"
+               "required_item": "Przedmiot wymagany",
+               "count": "Szt."
             },
             "overview": {
-               "title": "Building Designer - [str(building_name)]",
-               "building_name": "Building Name",
-               "building_cost": "Building Cost",
-               "start_building": "Build!",
-               "pause_building": "Pause building",
-               "save_building_template": "Save",
-               "finished_editing": "Finished Editing",
-               "start_editing": "Edit"
+               "title": "Projektant Budynków - [str(building_name)]",
+               "building_name": "Nazwa Budynku",
+               "building_cost": "Koszt budynku",
+               "start_building": "Buduj!",
+               "pause_building": "Wstrzymaj budowanie",
+               "save_building_template": "Zapisz",
+               "finished_editing": "Zakończono edycję",
+               "start_editing": "Edytuj"
             },
             "roof_shape": {
-               "title": "Slope, Direction, & Size",
-               "max_height": "Max Height",
-               "rise_slope": "Rise Slope"
+               "title": "Nachylenie, Kierunek i Rozmiar",
+               "max_height": "Maksymalna Wysokość",
+               "rise_slope": "Podnieś Nachylenie"
             },
             "building_templates": {
-               "title": "Building Templates",
-               "design_custom_building": "Design Custom Building",
+               "title": "Szablony Budynków",
+               "design_custom_building": "Zaprojektuj Własny Budynek",
                "template_names": {
-                  "tiny_cottage": "Tiny Cottage",
-                  "cottage_for_two": "Cottage for Two",
-                  "shared_sleeping_quarters": "Shared Sleeping Quaters",
-                  "dining_hall": "Dining Hall"
+                  "tiny_cottage": "Mała Chatka",
+                  "cottage_for_two": "Chatka dla Dwojga,
+                  "shared_sleeping_quarters": "Wspólne Kwatery",
+                  "dining_hall": "Jadalnia"
                },
-               "set_template_name_title": "Template Name",
-               "template_default_name": "My new building template",
-               "set_template_name_prompt": "Enter a name for this template"
+               "set_template_name_title": "Nazwa Szablonu",
+               "template_default_name": "Mój szablon budynku",
+               "set_template_name_prompt": "Nadaj nazwę temu szablonowi"
             },
             "place_item": {
-               "title": "Place an Item"
+               "title": "Postaw przedmiot"
             },
             "materials": {
                "wall": {
-                  "material": "Wall Material",
-                  "wood_resource": "Wooden Wall",
-                  "stone_resource": "Stone Wall"
+                  "material": "Materiał Ścian",
+                  "wood_resource": "Ściana Drewniana",
+                  "stone_resource": "Ściana Kamienna"
                },
                "floor": {
-                  "material": "Floor Material",
-                  "wood_resource": "Wooden Floor",
-                  "stone_resource": "Stone Floor"
+                  "material": "Materiał Podłogi",
+                  "wood_resource": "Podłoga Drewniana",
+                  "stone_resource": "Podłoga Kamienna"
                },
                "roof": {
-                  "material": "Roof Material",
-                  "wood_resource": "Wooden Roof",
-                  "stone_resource": "Stone Roof"
+                  "material": "Materiał Dachu",
+                  "wood_resource": "Dach Drewniany",
+                  "stone_resource": "Dach Kamienny"
                },
                "column": {
-                  "material": "Column Material",
-                  "wood_resource": "Wooden Column",
-                  "stone_resource": "Stone Column"
+                  "material": "Materiał Kolumn",
+                  "wood_resource": "Kolumna Drewniana",
+                  "stone_resource": "Kolumna Kamienna"
                },
                "road": {
-                  "material": "Road Material",
-                  "wood_resource": "Wooden Road",
-                  "stone_resource": "Stone Road"
+                  "material": "Materiał Dróg",
+                  "wood_resource": "Droga Drewniana",
+                  "stone_resource": "Droga Kamienna"
                },
                "doors": {
-                  "material": "Door Material",
-                  "wood_resource": "Wooden Door",
-                  "stone_resource": "Stone Door"
+                  "material": "Materiał Drzwi",
+                  "wood_resource": "Drzwi Drewniane",
+                  "stone_resource": "Drzwi Kamienne"
                },
                "windows": {
-                  "material": "Window Material",
-                  "wood_resource": "Wooden Window",
-                  "stone_resource": "Stone Window"
+                  "material": "Materiał Okien",
+                  "wood_resource": "Okna Drewniane",
+                  "stone_resource": "Okna Kamienne"
                }
             },
             "start_building_confirm": {
-               "title": "Really start building?",
-               "message": "Once you begin building this structure it cannot be edited. Are you sure you want to build now?",
-               "yes": "Yes, start building!",
-               "no": "Not yet"
+               "title": "Naprawdę, zacząć budowę?",
+               "message": "Gdy zaczniesz budowę, ten budynek nie może byś edytowany. Naprawdę chcesz zacząć budowę?",
+               "yes": "Tak, buduj już!",
+               "no": "Jeszcze nie."
             },
             "remove_building_confirm": {
-               "title": "Really remove this building",
-               "message": "Are you sure you want to remove this entire building?",
-               "keep_building": "Keep this building",
-               "remove_building": "Remove this building"
+               "title": "Naprawdę usunąć ten budynek?",
+               "message": "Czy jesteś pewien, że chcesz usunąć całkowicie ten budynek??",
+               "keep_building": "Nie, zostaw go",
+               "remove_building": "Tak, wyburz go."
             }
          },
          "zones_mode": {
             "farm": {
-               "choose_crop": "Choose a Crop",
-               "fallow_name": "Fallow",
-               "fallow_description": "Plant no crop and let the soil renew itself."
+               "choose_crop": "Wybierz uprawę",
+               "fallow_name": "Ugór",
+               "fallow_description": "Nic nie sadź i pozwól glebie odetchnąć."
             },
             "mining": {
-               "help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
-               "disable": "Suspend Mining",
-               "enable": "Resume Mining"
+               "help": "Kopanie pozwala tworzyć podziemne komnaty i tunele, a także wydobywać rzadkie surowce.",
+               "disable": "Wstrzymaj kopanie",
+               "enable": "Wznów kopanie"
             },
             "trapping_grounds": {
-               "help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
-               "disable": "Suspend Trapping",
-               "enable": "Resume Trapping"
+               "help": "Łowcy będą rozstawiać pułapki na Terenach Łowieckich i co jakiś czas sprawdzać, czy coś się złapało"
+               "disable": "Wstrzymaj Łowiectwo",
+               "enable": "Wznów Łowiectwo"
             },
             "pasture": {
-               "help": "Shepherds bring animals to this region and tend to their needs here.",
-               "choose_pasture_type": "Choose Pasture Type",
-               "sheep_pasture_name": "Sheep Pasture",
-               "rabbit_pasture_name": "Rabbit Pen",
-               "poyo_pasture_name": "Poyo Coop",
-               "sheep_pasture_description": "Sheep produce wool and can be a source of meat.",
-               "rabbit_pasture_description": "Rabbits can be a source of jerky.",
-               "poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient."
+               "help": "Pasterze perzyprowadzają tu i dbają o zwierzęta",
+               "choose_pasture_type": "Wybierz rodzaj Pastwiska",
+               "sheep_pasture_name": "Pastwisko dla Owiec",
+               "rabbit_pasture_name": "Zagroda dla Królików",
+               "poyo_pasture_name": "Kurnik dla Poyo",
+               "sheep_pasture_description": "Owce dają wełnę i mogą być źródłem mięsa.",
+               "rabbit_pasture_description": "Króliki są źródłem mięsa",
+               "poyo_pasture_description": "Poyo składają jaja, cenny składnik w kuchni."
             },
             "stockpile": {
-               "default_stockpile_name": "Stockpile No.[str(self.unit_info.custom_name)]",
-               "contents": "Contents",
-               "filter": "Filter",
-               "help": "Click the icons to choose what to store in this stockpile.",
-               "used_space": "Used space:",
+               "default_stockpile_name": "Magazyn Nr [str(self.unit_info.custom_name)]",
+               "contents": "Zawartość",
+               "filter": "Filtr",
+               "help": "Kliknij ikony by wybrac co składować w tym magazynie.",
+               "used_space": "Zajęte:",
                "filters": {
-                  "all": "All",
-                  "none": "None",
-                  "resources": "Resources",
-                  "construction": "Construction",
-                  "goods": "Tools & Goods",
-                  "gear": "Weapons & Armor",
-                  "food_and_drink": "Food & Drink",
-                  "wealth": "Wealth",
-                  "tooltip_tools": "Tools",
-                  "tooltip_wood": "wood",
-                  "tooltip_stone": "stone",
-                  "tooltip_ore": "ore",
-                  "tooltip_animal_part": "animal parts",
-                  "tooltip_plant": "plants",
-                  "tooltip_portal": "doors & windows",
-                  "tooltip_furniture": "furniture",
-                  "tooltip_defense": "defenses",
-                  "tooltip_light": "torches & lights",
-                  "tooltip_decoration": "decorations",
-                  "tooltip_refined_cloth": "thread & cloth",
-                  "tooltip_refined_animal_part": "goods produced from bits of animals",
-                  "tooltip_refined_ore": "metal bars",
-                  "tooltip_melee_weapon": "melee weapons",
-                  "tooltip_ranged_weapon": "ranged weapons",
-                  "tooltip_light_armor": "light armor",
-                  "tooltip_heavy_armor": "heavy armor",
-                  "tooltip_exotic_gear": "exotic gear",
-                  "tooltip_drink": "tasty beverages",
-                  "tooltip_gold": "gold",
-                  "tooltip_gem": "gems and trophies",
-                  "tooltip_food_containers": "food containers",
-                  "tooltip_refined": "cooked foods",
-                  "tooltip_ingredients": "raw ingredients"
+                  "all": "Wszystko",
+                  "none": "Nic",
+                  "resources": "Zasoby",
+                  "construction": "Konstrukcja",
+                  "goods": "Narzędzia i Dobra",
+                  "gear": "Bronie i Zbroje",
+                  "food_and_drink": "Jedzenie i Napoje",
+                  "wealth": "Bohgactwa",
+                  "tooltip_tools": "Narzędzia",
+                  "tooltip_wood": "Drewno",
+                  "tooltip_stone": "Kamien",
+                  "tooltip_ore": "Rudy",
+                  "tooltip_animal_part": "Części Zwierząt",
+                  "tooltip_plant": "Rośliny",
+                  "tooltip_portal": "Drzwi i Okna",
+                  "tooltip_furniture": "Meble",
+                  "tooltip_defense": "Obronne",
+                  "tooltip_light": "Pochodnie i Światła",
+                  "tooltip_decoration": "Tekoracje",
+                  "tooltip_refined_cloth": "Włókno i Sukno",
+                  "tooltip_refined_animal_part": "Dobra przygotowywane ze zwierząt",
+                  "tooltip_refined_ore": "Sztaby metalu",
+                  "tooltip_melee_weapon": "Bronie ręczne",
+                  "tooltip_ranged_weapon": "Bronie dystansowe",
+                  "tooltip_light_armor": "Lekkie zbroje",
+                  "tooltip_heavy_armor": "Ciężkie zbroje",
+                  "tooltip_exotic_gear": "Sprzęt unikatowy",
+                  "tooltip_drink": "Pyszne napitki",
+                  "tooltip_gold": "Złoto",
+                  "tooltip_gem": "Klejnoty i trofea",
+                  "tooltip_food_containers": "Pojemniki z jedzeniem",
+                  "tooltip_refined": "Ugotowane jedzenie",
+                  "tooltip_ingredients": "Surowe składniki"
                }
             }
          },
          "show_workshop": {
-            "workshop_title": "Crafting Orders",
-            "placeholder": "Type to search",
-            "show_workshop_description": "Owned by [name(owner)]",
-            "unclaimed_workshop_description": "Unclaimed",
-            "workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
-            "craft_number_left": "Craft",
-            "craft_number_right": "right now.",
-            "craft_up_to_left": "Maintain",
-            "craft_up_to_right": "in inventory.",
-            "craft_ingredients": "Ingredients:",
-            "craft_requirements": "Requirements:",
-            "unlock_text": "To Unlock:",
-            "crafting_status": "crafting...",
-            "crafting_status_queued": "Queued",
-            "workshop_paused_status": "paused...",
-            "workshop_remove_confirm": "Remove?",
-            "workshop_open": "Open!",
-            "workshop_closed": "Closed",
-            "maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
-            "craft": "Craft!",
-            "craftable_locked": "Unlocked at Level: [str(level)]",
-            "workshop_requirement_title": "Workshop",
-            "workshop_none_required": "None required!",
-            "workshop_required": "Requires a placed ",
-            "level_requirement_title": "Level Requirement",
-            "level_requirement_none": "None Required!",
-            "level_requirement_needed": "Requires a ",
-            "level_requirement_level": " of Level ",
-            "too_many_symbol": "lots",
-            "requirements_unmet_general": "Craft Requirements Unmet!",
-            "queue_anyway": "Queue Order Anyway",
-            "recipe_tab": "Recipes",
-            "orders_tab": "Orders",
-            "missing_ingredients": "Missing ingredients: "
+            "workshop_title": "Zadania Rzemieślnicze",
+            "placeholder": "Wpisz by wyszukać",
+            "show_workshop_description": "Właścicielem jest [name(owner)]",
+            "unclaimed_workshop_description": "Nie ma właściciela",
+            "workshop_entity_claimed_description": "Własność [name(self.stonehearth:workshop.crafter)]",
+            "craft_number_left": "Wytwórz",
+            "craft_number_right": "teraz",
+            "craft_up_to_left": "Utrzymuj",
+            "craft_up_to_right": "w zapasie.",
+            "craft_ingredients": "Składniki:",
+            "craft_requirements": "Wymagania:",
+            "unlock_text": "Aby odblokować:",
+            "crafting_status": "Tworzę...",
+            "crafting_status_queued": "Zakolejkowane",
+            "workshop_paused_status": "wstrzymane...",
+            "workshop_remove_confirm": "Usunąć?",
+            "workshop_open": "Otwarte!",
+            "workshop_closed": "Nieczynne",
+            "maintain_option_disabled": "Wybuduj magazyn albo postaw skrzynię by odblokować więcej możliwości rzemiosła!",
+            "craft": "Wytwórz!",
+            "craftable_locked": "Odblokowane na poziomie [str(level)]",
+            "workshop_requirement_title": "Warsztat",
+            "workshop_none_required": "Niewymagane!",
+            "workshop_required": "Wymaga postawienia ",
+            "level_requirement_title": "Wymaga poziomu",
+            "level_requirement_none": "Niewymagane!",
+            "level_requirement_needed": "Wymaga ",
+            "level_requirement_level": " na poziomie ",
+            "too_many_symbol": "mnóstwo",
+            "requirements_unmet_general": "Niespełnione Wymagania Rzemiosła!",
+            "queue_anyway": "Dodaj do kolejki mimo to",
+            "recipe_tab": "Receptury",
+            "orders_tab": "Zadania",
+            "missing_ingredients": "Brakujące składniki: "
          },
          "town_overview": {
-            "title": "Town Overview",
+            "title": "Przegląd Miasta",
             "journal": {
-               "default_message": "No journal entries yet!",
-               "signature": "--[name(entry.person)]",
-               "today": "Today",
-               "town_log": "Town Log",
-               "praises": "Praises",
-               "gripes": "Gripes",
-               "praise_empty": "Nothing praiseworthy happened today.",
-               "gripe_empty": "Whoa. I guess nobody has anything to gripe about."
+               "default_message": "Jeszcze nic tu nie ma...",
+               "signature": "Podpisano: [name(entry.person)]",
+               "today": "Dziś",
+               "town_log": "Dziennik Miejski",
+               "praises": "Pochwały",
+               "gripes": "Bolączki",
+               "praise_empty": "Nic godnego pochwały się dziś nie wydarzyło",
+               "gripe_empty": "O jeju, wygląda na to, że nikt na nic nie narzekał!"
             },
             "networth": {
-               "town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
+               "town_description": "[str(descriptor)] [str(noun)] [str(town_name)]",
                "size": {
-                  "camp": "Camp",
-                  "settlement": "Settlement",
-                  "hamlet": "Hamlet",
-                  "village": "Village",
-                  "town": "Town",
-                  "county": "County",
-                  "kingdom": "Kingdom",
-                  "empire": "Empire"
+                  "camp": "Obóz",
+                  "settlement": "Osada",
+                  "hamlet": "Wioska",
+                  "village": "Wieś",
+                  "town": "Miasto",
+                  "county": "Hrabstwo",
+                  "kingdom": "Królestwo",
+                  "empire": "Imperium"
                },
                "morale_descriptor": {
-                  "0": "Wretched",
-                  "1": "Miserable",
-                  "2": "Dejected",
-                  "3": "Listless",
-                  "4": "Fair",
-                  "5": "Good",
-                  "6": "Contented",
-                  "7": "Merry",
-                  "8": "Joyous",
-                  "9": "Buoyant",
-                  "10": "Incandescent"
+                  "0": "Nędzne",
+                  "1": "Żałosne",
+                  "2": "Przygnębione",
+                  "3": "Apatyczne",
+                  "4": "Zadowalające",
+                  "5": "Dobre",
+                  "6": "Zadowlone",
+                  "7": "Wesołe",
+                  "8": "Radosne",
+                  "9": "Szczęśliwe",
+                  "10": "Świetliste"
                }
             },
             "score": {
-               "net_worth": "Net worth",
-               "edibles": "Edibles",
-               "overall_morale": "Overall Morale",
-               "food": "Food",
-               "shelter": "Shelter",
-               "safety": "Safety"
+               "net_worth": "Wartość",
+               "edibles": "Żywność",
+               "overall_morale": "Morale ogólne",
+               "food": "Jedzenie",
+               "shelter": "Schronienie",
+               "safety": "Bezpieczeństwo"
             },
             "tab": {
-               "town_overview": "Town Overview",
-               "inventory": "Inventory",
-               "journal": "Journal"
+               "town_overview": "Przegląd Miasta",
+               "inventory": "Inwentarz",
+               "journal": "Dziennik"
             }
          }
       },
       "shell": {
          "loading_screen": {
-            "initial_load_map_text": "Generating World",
+            "initial_load_map_text": "Tworzenie świata",
             "loading_map_flavor_text": {
-               "001": "sharpening right angles...",
-               "002": "decompressing voxels...",
-               "003": "synthesizing fauna...",
-               "004": "redistubuting redistrubutables...",
-               "005": "terracing terrain...",
-               "006": "stocking piles...",
-               "007": "inflating trees...",
-               "008": "rising sun...",
-               "009": "floating clouds...",
-               "010": "burlying hands...",
-               "011": "bushing berries...",
-               "012": "confabulating childhood...",
-               "013": "resolving determinism...",
-               "014": "cubulating companionship...",
-               "015": "existentializing dilemmas...",
-               "016": "improvising morals...",
-               "017": "splining reticulators..",
-               "018": "diversifying gender...",
-               "019": "homogenizing motivation...",
-               "020": "deriving history...",
-               "021": "indexing bugs...",
-               "022": "compiling truth...",
+               "001": "Ostrzenie kątów prostych...",
+               "002": "Dekompresowanie Voxeli...",
+               "003": "Synteza fauny...",
+               "004": "Redystrybucja redystrybuowalnych...",
+               "005": "Tarasowanie terenu...",
+               "006": "Magazynowanie Magazynów...",
+               "007": "Pompowanie drzew...",
+               "008": "Wschgodzenie słońca...",
+               "009": "Nawiewanie chmur...",
+               "010": "Krzepienie rąk...",
+               "011": "Krzaczenie jagódek...",
+               "012": "Konfabulowanie dzieciństwa..",
+               "013": "Rozwiązywanie determinizmu...",
+               "014": "Sześcianizacja towarzystwa...",
+               "015": "Dylematyzacja egzystencjonalizmu...",
+               "016": "Improwizacja morałów...",
+               "017": "Cięcie siatek..",
+               "018": "Dywersyfikacja płci...",
+               "019": "Homogenizacja motywacji...",
+               "020": "Wnioskowanie z historii...",
+               "021": "Indeksowanie błędów...",
+               "022": "Tworzenie prawdy...",
                "023": "recollecting marbles...",
                "024": "effecting mass...",
                "025": "experiencing higher math...",
